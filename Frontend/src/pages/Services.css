@@ -1,0 +1,65 @@
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.service-card {
+  background: var(--white);
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: all 0.3s ease;
+  border-bottom: 4px solid transparent;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  border-bottom-color: var(--primary);
+}
+
+.service-icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: rgba(242, 110, 34, 0.1);
+  color: var(--primary);
+  border-radius: 50%;
+  margin-bottom: 25px;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover .service-icon-wrapper {
+  background-color: var(--primary);
+  color: var(--white);
+  transform: scale(1.1);
+}
+
+.service-title {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: var(--secondary);
+}
+
+.service-desc {
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+.cta-banner {
+  background: linear-gradient(135deg, var(--secondary), #133a6e);
+  color: white;
+  padding: 50px 30px;
+  border-radius: 16px;
+  margin-bottom: 60px;
+}
+
+.cta-banner h2 {
+  color: white;
+  margin-bottom: 15px;
+}
