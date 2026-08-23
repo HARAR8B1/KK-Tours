@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { MapPin, Clock } from 'lucide-react';
 import { getPackages } from '../utils/dataStore';
-import './Packages.css';
 
 const Packages = () => {
   const packages = getPackages();

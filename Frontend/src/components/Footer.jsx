@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail } from 'lucide-react';
-import { getSettings } from '../../utils/dataStore';
+import { getSettings } from '../utils/dataStore';
 import './Footer.css';
 
 const Footer = () => {

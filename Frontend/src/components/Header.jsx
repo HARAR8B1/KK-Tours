@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Phone, Mail } from 'lucide-react';
-import { getSettings } from '../../utils/dataStore';
+import { getSettings } from '../utils/dataStore';
 import './Header.css';
 
 const Header = () => {
